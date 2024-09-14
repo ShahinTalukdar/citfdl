@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semester Result</title>
+</head>
+
+<body>
+    <h2> SIGN UP </h2>
+    <h4> It's quick and easy</h4>
+    <form> 
+        <!-- <label for="First Name">First Name :</label> -->
+        <input id="First Name" type="text" placeholder="First Name">
+
+        <!-- <label for="Last Name">Last Name</label> -->
+        <input id="Last Name" type="text" placeholder="Last Name"> 
+        <br><br>
+        <input id="Mobile number or email address" type="text" placeholder="Mobile number or email address"><br><br>
+        <input id="New Password" type="text" placeholder="New Password">
+        <br><br>
+
+        <label for="dob">Date of Birth</label><br>
+        <select id="day" name="day">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="Day" selected>Day</option>
+        </select>
+        <select name="Month">
+            <option value="Jan">Jan</option>
+            <option value="Feb">Feb</option>
+            <option value="March">March</option>
+            <option value="Month" selected>Month</option>
+        </select>
+        <select name="Year">
+            <option value="2001">2001</option>
+            <option value="2002">2002</option>
+            <option value="2003">2003</option>
+            <option value="Year" selected>Year</option>
+        </select>
+        <br><br>
+        <label for="gen">Gender</label><br>
+
+
+        <select name=" Gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Custom">Custom</option>
+            <option value="Gender" selected>Gender</option>
+
+        </select> <br><br>
+            
+        
+        <button > Sign up </button>
+    </form>
+
+    <!-- <table border="1" cellspacing="0px" cellpadding="15px" width="800px" align="center">
+        <caption>
+            <h3>SEMESTER RESULT</h3>
+        </caption>
+        <tr align="center">
+            <th>STUDENT NAME</th>
+            <th>SEMESTER</th>
+            <th>BATCH</th>
+            <th>CGPA</th>
+        </tr>
+        <tr align="center">
+            <td>SHAHIN</td>
+            <td>1ST</td>
+            <td>42</td>
+            <td bgcolor="green">
+                <font color="white">3.30</font>
+            </td>
+        </tr>
+        <tr align="center">
+            <td>SHAHIN</td>
+            <td>2ND</td>
+            <td>42</td>
+            <td bgcolor="red">
+                <font color="white">3.40</font>
+            </td>
+        </tr>
+        <tr align="center">
+            <td>SHAHIN</td>
+            <td>3RD</td>
+            <td>42</td>
+            <td bgcolor="black">
+                <font color="white">3.50</font>
+            </td>
+        </tr>
+        <tr align="center">
+            <td>SHAHIN</td>
+            <td>4TH</td>
+            <td>42</td>
+            <td bgcolor="purple">
+                <font color="white">3.60</font>
+            </td>
+        </tr>
+        <tr align="center">
+            <th colspan="3"> ACCHIVE CGPA CALCULATE BY TOTAL 4 TH SEM CGPA </th>
+            <th bgcolor="pink" colspan="1">3.45</th>
+        </tr>
+        
+    </table> -->
+
+    <!-- The following table is commented out -->
+    <!-- 
+    <table border="1" width="800px">
+        <tr>
+            <td>Date</td>
+            <td>Name</td>
+        </tr>
+        <tr>
+            <td>12/09/2024</td>
+            <td>md shahin</td>
+        </tr>
+        <tr>
+            <td>12/09/2024</td>
+            <td>md shahin</td>
+        </tr>
+        <tr>
+            <td>12/09/2024</td>
+            <td>md shahin</td>
+        </tr>
+        <tr>
+            <td>12/09/2024</td>
+            <td>md shahin</td>
+        </tr>
+    </table> 
+    -->
+</body>
+
+</html>
