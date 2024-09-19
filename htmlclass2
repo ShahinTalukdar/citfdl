@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Semester Result</title>
+    <title>HTML CLASS 02 </title>
 </head>
 
 <body>
@@ -56,7 +56,7 @@
         <button > Sign up </button>
     </form>
 
-    <!-- <table border="1" cellspacing="0px" cellpadding="15px" width="800px" align="center">
+    <table border="1" cellspacing="0px" cellpadding="15px" width="800px" align="center">
         <caption>
             <h3>SEMESTER RESULT</h3>
         </caption>
@@ -103,33 +103,10 @@
             <th bgcolor="pink" colspan="1">3.45</th>
         </tr>
         
-    </table> -->
+    </table>
 
-    <!-- The following table is commented out -->
-    <!-- 
-    <table border="1" width="800px">
-        <tr>
-            <td>Date</td>
-            <td>Name</td>
-        </tr>
-        <tr>
-            <td>12/09/2024</td>
-            <td>md shahin</td>
-        </tr>
-        <tr>
-            <td>12/09/2024</td>
-            <td>md shahin</td>
-        </tr>
-        <tr>
-            <td>12/09/2024</td>
-            <td>md shahin</td>
-        </tr>
-        <tr>
-            <td>12/09/2024</td>
-            <td>md shahin</td>
-        </tr>
-    </table> 
-    -->
+   
+    
 </body>
 
 </html>
